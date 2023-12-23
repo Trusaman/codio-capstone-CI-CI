@@ -41,7 +41,7 @@ jobs:
         node-version: 14
 
     - name: Install dependencies
-      run: npx ci
+      run: npx run ci
 
     - name: Deploy to GitHub Pages
       run: npx run deploy
